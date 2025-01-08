@@ -1,0 +1,31 @@
+// Font Family
+$font-family-primary: "Jost", sans-serif;
+
+// Headings
+$heading-1-font-size: 48px;
+$heading-1-line-height: 1; // 48px / 48px
+
+$heading-2-font-size: 40px;
+$heading-2-line-height: 1.2; // 48px / 40px
+$heading-2-letter-spacing: 2px;
+$heading-2-font-weight: 500; // Medium
+
+$heading-3-font-size: 20px;
+$heading-3-line-height: 1.3; // 26px / 20px
+$heading-3-letter-spacing: 5px;
+$heading-3-font-weight: 500; // Medium
+
+// Body
+$body-font-size: 16px;
+$body-line-height: 1.625; // 26px / 16px
+$body-font-weight: 400; // Regular
+
+// Primary Colors
+$color-peach: #e7816b;
+$color-black: #1d1c1e;
+$color-white: #ffffff;
+
+// Secondary Colors
+$color-light-peach: #ffa89b;
+$color-dark-grey: #333136;
+$color-light-grey: #f1f3f5;
