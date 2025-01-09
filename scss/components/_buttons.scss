@@ -1,0 +1,32 @@
+.btn-dark {
+  padding: 18px 25px 16px 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: $color-dark-grey;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn-dark:hover {
+  background-color: $color-light-peach;
+  color: #ffffff;
+}
+
+.btn-light {
+  padding: 18px 25px 16px 24px;
+  background-color: $color-peach;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn-light {
+  background-color: $color-light-peach;
+}

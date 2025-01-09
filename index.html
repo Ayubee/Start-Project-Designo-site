@@ -3,15 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DESIGNO HOME</title>
     <link rel="stylesheet" href="./styles/style.min.css" />
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="hedaer__container container">
+        <div class="header__logo">
+          <a class="hader__logo__link" href="./index.html">
+            <img
+              class="hedaer__image"
+              src="./src/images/home/desktop/Oval.svg"
+              alt=""
+              width="196"
+              height="24"
+            />
+          </a>
+        </div>
+
+        <nav class="sitenav">
+          <input id="burger-toggle" type="checkbox" />
+          <label for="burger-toggle">
+            <span></span>
+          </label>
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">OUR COMPANY</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">LOCATIONS</a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!-- HEADER END -->
     <!-- MAIN START -->
-    <main class="main"></main>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Award-winning custom <br />
+              designs and digital <br />
+              branding solutions
+            </h1>
+            <p class="hero__subtitle">
+              With over 10 years in the industry, we are experienced in creating
+              fully responsive websites, app design, and engaging brand
+              experiences. Find out more about our services.
+            </p>
+            <a class="hero__link btn-dark" href="#"> Learn More </a>
+          </div>
+
+          <div class="hero__box">
+            <div class="hero__box__images">
+              <img
+                src="./src/images/home/desktop/image-hero-phone.png"
+                alt=""
+                class="hero__box__image"
+                width="572"
+                height="540"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project">
+        <div class="project__container container">
+          <div class="project__box">
+            <div class="project__box__card">
+              <h4 class="project__box__card__title">WEB DESIGN</h4>
+              <p class="project__box__card__subtitle">
+                VIEW PROJECTS <span class="project__box__car__arrow"></span>
+              </p>
+            </div>
+            <div class="project__box__card">
+              <h4 class="project__box__card__title">APP DESIGN</h4>
+              <p class="project__box__card__subtitle">
+                VIEW PROJECTS <span class="project__box__car__arrow"></span>
+              </p>
+            </div>
+            <div class="project__box__card">
+              <h4 class="project__box__card__title">GRAPHIC DESIGN</h4>
+              <p class="project__box__card__subtitle">
+                VIEW PROJECTS <span class="project__box__car__arrow"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- MAIN END -->
     <!-- FOOTER START -->
     <footer class="footer"></footer>
