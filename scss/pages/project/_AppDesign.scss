@@ -1,0 +1,105 @@
+.app__design__project {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.app__design__project__container {
+}
+
+.app__design__project__box {
+  height: 308px;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "one two";
+}
+.app__design__project__link {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  color: $color-white;
+}
+.app__design__project__link:nth-child(1) {
+  grid-area: one;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/images/home/desktop/image-web-design-large.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../src/images/home/desktop/image-web-design-large.jpg");
+  }
+
+  &:active {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url("../src/images/home/desktop/image-web-design-large.jpg");
+  }
+}
+.app__design__project__link:nth-child(2) {
+  grid-area: two;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src/images/home/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../src/images/home/desktop/image-graphic-design.jpg");
+  }
+
+  &:active {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.8),
+        rgba(231, 129, 107, 0.8)
+      ),
+      url("../src/images/home/desktop/image-graphic-design.jpg");
+  }
+}
+.app__design__project__box__title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: $heading-2-font-size;
+  line-height: $heading-2-line-height;
+  letter-spacing: $heading-2-letter-spacing;
+}
+.app__design__project__box__subtitle {
+  font-size: 1.5rem;
+  line-height: 1.46;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .app__design__project__box {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "one"
+      "two";
+  }
+
+  .app__design__project__link {
+    width: 100%;
+    padding: 5.3rem 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app__design__project {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .app__design__project__box__title {
+    font-size: 2.8rem;
+    line-height: 1.28;
+    font-weight: 500;
+  }
+}
