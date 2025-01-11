@@ -1,0 +1,118 @@
+.contact__hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 9.5rem;
+  background-color: $color-peach;
+  border-radius: 15px;
+  background-image: url("../src/images/home/desktop/oval3.svg");
+  background-repeat: no-repeat;
+  background-size: 715px;
+  background-position: top left;
+}
+
+.contact__hero__content {
+  width: 100%;
+  max-width: 540px;
+  color: $color-white;
+}
+
+.contact__hero__title {
+  margin-top: 13rem;
+  font-size: $heading-1-font-size;
+  line-height: $heading-1-line-height;
+  font-weight: 500;
+}
+
+.contact__hero__subtitle {
+  width: 100%;
+  max-width: 445px;
+  font-weight: 400;
+  margin-bottom: 16.1rem;
+}
+
+.contact__hero__box {
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 380px;
+  gap: 2.4rem;
+  margin-bottom: 5.5rem;
+}
+.contact__hero__box__input {
+  color: #ffffff;
+  padding-bottom: 1.2rem;
+  padding-left: 1.6rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.contact__hero__box__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.input-name {
+}
+.input-email {
+}
+.input-phone {
+}
+.input-massage {
+  padding-bottom: 7.5rem;
+}
+
+.contact__hero__box__btn {
+  width: 152px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__hero {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+  }
+
+  .contact__hero__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5.8rem;
+    padding-right: 5.8rem;
+  }
+
+  .contact__hero__subtitle {
+    margin-bottom: 0;
+  }
+
+  .contact__hero__box {
+    max-width: 100%;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact__hero {
+    margin: 0;
+  }
+
+  .contact__hero__container {
+    border-radius: 0;
+    margin-top: 110px;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    background-image: url("../src/images/home/desktop/oval3.svg"),
+      url("../src/images/home/desktop/oval3.svg");
+    background-repeat: no-repeat;
+    background-size: 330px 340px;
+    background-position: top 20px left -100px, top 20px right -110px;
+  }
+
+  .contact__hero__content {
+    text-align: center;
+  }
+}

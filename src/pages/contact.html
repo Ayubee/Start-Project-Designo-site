@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DESIGNO HOME</title>
+    <title>DESIGNO Contact</title>
     <link rel="stylesheet" href="../../styles/style.min.css" />
   </head>
   <body>
@@ -32,7 +32,9 @@
               <a href="./about.html" class="sitenav__link">OUR COMPANY</a>
             </li>
             <li class="sitenav__item">
-              <a href="./contact.html" class="sitenav__link">LOCATIONS</a>
+              <a href="../pages/location.html" class="sitenav__link"
+                >LOCATIONS</a
+              >
             </li>
             <li class="sitenav__item">
               <a href="./contact.html" class="sitenav__link">CONTACT</a>
@@ -44,118 +46,88 @@
     <!-- HEADER END -->
     <!-- MAIN START -->
     <main class="main">
-      <section class="hero">
-        <div class="hero__container container">
-          <div class="hero__content">
-            <h1 class="hero__title">
-              Award-winning custom <br />
-              designs and digital <br />
-              branding solutions
-            </h1>
-            <p class="hero__subtitle">
-              With over 10 years in the industry, we are experienced in creating
-              fully responsive websites, app design, and engaging brand
-              experiences. Find out more about our services.
+      <section class="contact__hero">
+        <div class="contact__hero__container container">
+          <div class="contact__hero__content">
+            <h1 class="contact__hero__title">Contact Us</h1>
+            <p class="contact__hero__subtitle">
+              Ready to take it to the next level? Let’s talk about your project
+              or idea and find out how we can help your business grow. If you
+              are looking for unique digital experiences that’s relatable to
+              your users, drop us a line.
             </p>
-            <a class="hero__link btn-dark" href="#"> Learn More </a>
           </div>
 
-          <div class="hero__box">
-            <div class="hero__box__images">
+          <div class="contact__hero__box">
+            <input
+              class="contact__hero__box__input input-name"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              class="contact__hero__box__input input-email"
+              type="email"
+              placeholder="Email Address"
+            />
+            <input
+              class="contact__hero__box__input input-phone"
+              type="tel"
+              placeholder="Phone"
+            />
+            <input
+              class="contact__hero__box__input input-massage"
+              type="text"
+              placeholder="Your Message"
+            />
+            <a href="#" class="contact__hero__box__btn btn-dark">Submit</a>
+          </div>
+        </div>
+      </section>
+      <section class="location">
+        <div class="location__container container">
+          <div class="location__content">
+            <div class="location__content__box">
               <img
-                src="./src/images/home/desktop/image-hero-phone.png"
+                class="location__image"
+                src="../images/shared/desktop/illustration-canada.svg"
                 alt=""
-                class="hero__box__image"
-                width="572"
-                height="540"
+                width="182"
+                height="143"
               />
+              <h3 class="location__title">CANADA</h3>
+              <a href="./location.html" class="btn-light location__btn"
+                >SEE LOCATION</a
+              >
+            </div>
+            <div class="location__content__box">
+              <img
+                class="location__image"
+                src="../images/shared/desktop/illustration-australia.svg"
+                alt=""
+                width="182"
+                height="143"
+              />
+              <h3 class="location__title">AUSTRALIA</h3>
+              <a href="./location.html" class="btn-light location__btn"
+                >SEE LOCATION</a
+              >
+            </div>
+            <div class="location__content__box">
+              <img
+                class="location__image"
+                src="../images/shared/desktop/illustration-united-kingdom.svg"
+                alt=""
+                width="202"
+                height="202"
+              />
+              <h3 class="location__title">UNITED KINGDOM</h3>
+              <a href="./location.html" class="btn-light location__btn"
+                >SEE LOCATION</a
+              >
             </div>
           </div>
         </div>
       </section>
-
-      <section class="project">
-        <div class="project__container container">
-          <div class="project__box">
-            <a href="./src/pages/project/WebDesign.html" class="project__link">
-              <h2 class="project__box__title">Web Deisgn</h2>
-              <p class="project__box__subtitle">
-                view projects
-                <span class="project__box__icon"></span>
-              </p>
-            </a>
-            <a href="./src/pages/project/WebApp.html" class="project__link">
-              <h2 class="project__box__title">App Deisgn</h2>
-              <p class="project__box__subtitle">
-                view projects
-                <span class="project__box__icon"></span>
-              </p>
-            </a>
-            <a href="./src/pages/project/WebGraphic.html" class="project__link">
-              <h2 class="project__box__title">Graphic Deisgn</h2>
-              <p class="project__box__subtitle">
-                view projects
-                <span class="project__box__icon"></span>
-              </p>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="feature">
-        <div class="feature__container container">
-          <div class="feature__content">
-            <div class="feature__box">
-              <img
-                src="./src/images/home/desktop/illustration-passionate.svg"
-                alt=""
-                class="feature__box__image"
-              />
-              <div class="feature__box__content">
-                <h4 class="feature__box__title">PASSIONATE</h4>
-                <p class="feature__box__subtitle">
-                  Each project starts with an in-depth brand research to ensure
-                  we only create products that serve a purpose. We merge art,
-                  design, and technology into exciting new solutions.
-                </p>
-              </div>
-            </div>
-            <div class="feature__box">
-              <img
-                src="./src/images/home/desktop/illustration-resourceful.svg"
-                alt=""
-                class="feature__box__image"
-              />
-              <div class="feature__box__box__content">
-                <h4 class="feature__box__title">RESOURCEFUL</h4>
-                <p class="feature__box__subtitle">
-                  Everything that we do has a strategic purpose. We use an agile
-                  approach in all of our projects and value customer
-                  collaboration. It guarantees superior results that fulfill our
-                  clients’ needs.
-                </p>
-              </div>
-            </div>
-            <div class="feature__box">
-              <img
-                src="./src/images/home/desktop/illustration-friendly.svg"
-                alt=""
-                class="feature__box__image"
-              />
-
-              <div class="feature__box__content">
-                <h4 class="feature__box__title">FRIENDLY</h4>
-                <p class="feature__box__subtitle">
-                  We are a group of enthusiastic folks who know how to put
-                  people first. Our success depends on our customers, and we
-                  strive to give them the best experience a company can provide.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section class="about">
         <div class="about__container container">
           <div class="about__box">
@@ -177,7 +149,7 @@
           <a class="footer__logo__link" href="./index.html">
             <img
               class="footer__image"
-              src="./src/images/home/desktop/icon-logo-white.svg"
+              src="../images/home/desktop/icon-logo-white.svg"
               alt=""
               width="196"
               height="24"
@@ -188,13 +160,19 @@
           <nav class="footer__sitenav">
             <ul class="footer__sitenav__list">
               <li class="footer__sitenav__item">
-                <a href="#" class="footer__sitenav__link">OUR COMPANY</a>
+                <a href="./about.html" class="footer__sitenav__link"
+                  >OUR COMPANY</a
+                >
               </li>
               <li class="footer__sitenav__item">
-                <a href="#" class="footer__sitenav__link">LOCATIONS</a>
+                <a href="./location.html" class="footer__sitenav__link"
+                  >LOCATIONS</a
+                >
               </li>
               <li class="footer__sitenav__item">
-                <a href="#" class="footer__sitenav__link">CONTACT</a>
+                <a href="./contact.html" class="footer__sitenav__link"
+                  >CONTACT</a
+                >
               </li>
             </ul>
           </nav>
